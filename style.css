@@ -1,0 +1,83 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(224, 222, 218);
+    font-family: sans-serif;
+}
+
+.container {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+#title{
+    text-align: center;
+    font-size: 50px;
+
+}
+#yapilacak{
+    text-align: center;
+    font-size: 25px;
+    border: 2px solid transparent;
+    outline: none;
+    width: 500px;
+    height: 25px;
+    padding: 5px 10px;
+    border-radius: 6px;
+    background-color: whitesmoke;
+    color: darkslategray;
+}
+
+
+#yapilacak:hover{
+    transition: 300ms ease-in-out;
+    border: 2px solid blueviolet;
+}
+
+.btn{
+    
+    background-color: blue;
+    color: rgb(246, 248, 230);
+    text-align: center;
+    padding: 10px 20px;
+    height: 40px;
+    font-weight: 600;
+    padding-top: -1px;
+    letter-spacing: 1px;
+    font-size: 15px;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    outline: none;
+}
+
+
+.btn:hover{
+    transition: 50ms ease-in-out;
+    border: 2px solid white;
+}
+.click:active{
+    background: green;
+    color: wheat;
+    border-radius: 15px;
+    font-size: medium;
+    border: 3px solid whitesmoke;
+}
+
+
+.paragraf-styling{
+    margin: 0; 
+    cursor: pointer;
+    border: 1px solid rgb(245, 116, 116);
+    font-size: 35px;
+    background-color: rgb(253, 246, 246);
+    text-transform: capitalize;
+}
+
+#clear:active{
+    background-color: orange;
+    border-radius: 9px;
+    font-size: large;
+        
+}
